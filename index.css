@@ -66,6 +66,7 @@ body {
 
     font-family: 'Patrick Hand', cursive;
     margin-top:150px;
+    background-color: rgb(182, 201, 201);
 }
 .container {
     max-width: 1000px;
