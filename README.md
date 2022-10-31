@@ -8,3 +8,9 @@ Proyecto se la semana 11
 #JAVASCRIPT 
 #BOOSTRAP 
 #CSS
+
+#### INTEGRANTES
+
+#ROXANA
+#FREDDY
+#RICARDO
