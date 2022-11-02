@@ -1,0 +1,1 @@
+document.getElementById("pricing").style.visibility = 'hidden';
