@@ -1,6 +1,6 @@
 # catalogo-de-compra
 
-Proyecto se la semana 11 
+Proyecto 1
 
 ### tecnocologia
 
