@@ -1,6 +1,6 @@
 # catalogo-de-compra
 
-Proyecto 1
+Proyecto se la sesion 12
 
 ### tecnocologia
 
