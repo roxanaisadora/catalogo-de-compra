@@ -3,48 +3,48 @@
       "precio": 500,
       "id":1,
       "title":"mainboard",
-      "imagen":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
+      "img":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
     },
     {
         "precio": 600,
       "id":2,
       "title":"mainboard",
-      "imagen":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
+      "img":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
     },
     {
         "precio": 500,
         "id":3,
         "title":"mainboard",
-        "imagen":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
+        "img":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
       },
       {
           "precio": 600,
         "id":4,
         "title":"mainboard",
-        "imagen":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
+        "img":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
       },
       {
         "precio": 500,
         "id":5,
         "title":"mainboard",
-        "imagen":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
+        "img":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
       },
       {
           "precio": 600,
         "id":6,
         "title":"mainboard",
-        "imagen":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
+        "img":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
       },
       {
         "precio": 500,
         "id":7,
         "title":"mainboard",
-        "imagen":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
+        "img":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
       },
       {
           "precio": 600,
         "id":8,
         "title":"mainboard",
-        "imagen":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
+        "img":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
       }
 ]
