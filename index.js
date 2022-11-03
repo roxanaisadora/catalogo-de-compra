@@ -31,7 +31,7 @@ const fetchData =async () =>{
 const printCards = data =>{
     data.forEach(product => {
         templateCard.querySelector('h5').textContent = product.title
-        templateCard.querySelector('p').textContent = `S/. ${product.precio}`
+        templateCard.querySelector('p').textContent = product.precio
         templateCard.querySelector('img').setAttribute("src", product.img)
         templateCard.querySelector('.btn-dark').dataset.id = product.id
 
@@ -68,5 +68,23 @@ const setCarrito = objeto =>{
    }
 
    carrito[producto.id] = {...producto}
-   console.log(producto)
+   //console.log(producto)
+   pintarCarrito()
+}
+
+const pintarCarrito = () =>{
+    //console.log(carrito)
+    items.innerHTML =''
+    Object.values(carrito).forEach(producto =>{
+        templateCarrito.querySelector('th').textContent = producto.id
+        templateCarrito.querySelectorAll('td')[0].textContent= producto.title
+        templateCarrito.querySelectorAll('td')[1].textContent= producto.cantidad
+        templateCarrito.querySelector('.btn-info').dataset.id = producto.id
+        templateCarrito.querySelector('.btn-danger').dataset.id = producto.id
+        templateCarrito.querySelector('span').textContent = producto.cantidad * producto.precio
+
+        const clone = templateCarrito.cloneNode(true)
+        fragment.appendChild(clone)
+    })
+    items.appendChild(fragment)
 }
