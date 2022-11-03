@@ -1,6 +1,6 @@
 # catalogo-de-compra
 
-Proyecto unidad 1
+Proyecto final
 
 ### tecnocologia
 
