@@ -87,4 +87,25 @@ const pintarCarrito = () =>{
         fragment.appendChild(clone)
     })
     items.appendChild(fragment)
+
+    pintarFooter()
+}
+
+const pintarFooter= ()=>{
+    footer.innerHTML = ''
+    if(Object.keys(carrito).length ===0){
+        footer.innerHTML =  ` <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>`
+    }
+    const nCantidad = Object.values(carrito).reduce((acc,{cantidad}) => acc + cantidad,0)
+    //console.log(nCantidad)
+    const nPrecio = Object.values(carrito).reduce((acc,{cantidad,precio}) => acc + cantidad * precio,0)
+    //console.log(nPrecio)
+
+    templateFooter.querySelectorAll('td')[0].textContent = nCantidad
+    templateFooter.querySelector('span').textContent = nPrecio
+
+    const clone = templateFooter.cloneNode(true)
+    fragment.appendChild(clone)
+    footer.appendChild(fragment)
+
 }
