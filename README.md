@@ -1,6 +1,6 @@
 # catalogo-de-compra
 
-Proyecto se la sesion 12
+Proyecto unidad 1
 
 ### tecnocologia
 
