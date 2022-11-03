@@ -16,7 +16,7 @@ cards.addEventListener('click', e=>{
     addCarrito(e)
 })
 
-cards.addEventListener('click', e=>{
+items.addEventListener('click', e=>{
     btnAcction(e)
 })
 
@@ -120,3 +120,23 @@ const pintarFooter= ()=>{
     })
 }
 
+const btnAcction = e => {
+    //console.log(e.target)
+    if(e.target.classList.contains('btn-info')){
+        //console.log(carrito[e.target.dataset.id])
+        const producto = carrito[e.target.dataset.id]
+        producto.cantidad = carrito[e.target.dataset.id].cantidad +1
+        carrito[e.target.dataset.id] = {...producto}
+        pintarCarrito()
+    }
+    if(e.target.classList.contains('btn-danger')){
+        const producto = carrito[e.target.dataset.id]
+        producto.cantidad = carrito[e.target.dataset.id].cantidad -1
+        if(producto.cantidad === 0){
+            delete carrito[e.target.dataset.id]
+        }
+        pintarCarrito()
+    }
+    
+    e.stopPropagation()
+}
