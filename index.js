@@ -10,6 +10,10 @@ let carrito = {}
 
 document.addEventListener('DOMContentLoaded', ()=>{
     fetchData()
+    if(localStorage.getItem('carrito')){
+        carrito = JSON.parse(localStorage.getItem('carrito'))
+        pintarCarrito()
+    }
 })
 
 cards.addEventListener('click', e=>{
@@ -74,6 +78,8 @@ const setCarrito = objeto =>{
    carrito[producto.id] = {...producto}
    //console.log(producto)
    pintarCarrito()
+
+   localStorage.setItem('carrito', JSON.stringify(carrito))
 }
 
 const pintarCarrito = () =>{
