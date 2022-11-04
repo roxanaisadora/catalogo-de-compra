@@ -1,50 +1,38 @@
 [
     {
-      "precio": 500,
+      "precio": 999,
       "id":1,
-      "title":"mainboard",
-      "img":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
+      "title":"Laptop convertible Hyundai",
+      "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/h/y/hyuandai-1_1.jpg"
     },
     {
-        "precio": 600,
+        "precio": 5699,
       "id":2,
-      "title":"mainboard",
-      "img":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
+      "title":"Laptop HP Victus",
+      "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/v/i/victus.jpg"
     },
     {
-        "precio": 500,
+        "precio": 1399,
         "id":3,
-        "title":"mainboard",
-        "img":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
+        "title":"Laptop Convertible ONN",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
       },
       {
-          "precio": 600,
+          "precio": 1399,
         "id":4,
-        "title":"mainboard",
-        "img":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
+        "title":"Laptop Convertible Lenovo",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/f/l/flex-5_1_2.jpg"
       },
       {
-        "precio": 500,
+        "precio": 3499,
         "id":5,
-        "title":"mainboard",
-        "img":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
+        "title":"Laptop WorkStation Dell",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/d/e/dell-1_6.jpg"
       },
       {
-          "precio": 600,
+          "precio": 4399,
         "id":6,
-        "title":"mainboard",
-        "img":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
-      },
-      {
-        "precio": 500,
-        "id":7,
-        "title":"mainboard",
-        "img":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
-      },
-      {
-          "precio": 600,
-        "id":8,
-        "title":"mainboard",
-        "img":"https://cdn.pixabay.com/photo/2022/10/09/02/16/haunted-house-7508035_960_720.jpg"
+        "title":"PC Dell Inspiron 24-5400",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/d/e/dell-all-in-one.jpg"
       }
 ]
