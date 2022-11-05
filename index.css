@@ -27,17 +27,15 @@
 .carousel-inner{
  height: 300px;
 }
-
-.container-body{
-    margin-top: 10px;
-    width: 100%;
-    height:60vh
+.scrollspy-example{
+    background-color: rgb(182, 30, 30);
 }
-
 .container {
-    max-width: 100px;
     width: 100%;
+    height: 305px;
     margin: 0 auto;
+    overflow-x: scroll;
+    background-color: black;
 }
 #features {
     margin-top: 20px;
@@ -97,12 +95,19 @@
 
 .box {
     width: 700px;
-    
     padding: 5px;
     text-decoration: none;
      margin: 0 auto;
     margin-top: 10%;
-    color: black;
+    color: rgb(49, 25, 233);
     font-family: 'Century Gothic', 'Sans-Serif';
     
 }
+
+.img-card{
+    margin: auto;
+    display: block;
+    width: 30%;
+    margin-top: 10px;
+}
+

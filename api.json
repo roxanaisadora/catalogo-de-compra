@@ -1,38 +1,98 @@
-[
-    {
-      "precio": 999,
-      "id":1,
-      "title":"Laptop convertible Hyundai",
-      "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/h/y/hyuandai-1_1.jpg"
-    },
-    {
-        "precio": 5699,
-      "id":2,
-      "title":"Laptop HP Victus",
-      "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/v/i/victus.jpg"
-    },
-    {
-        "precio": 1399,
-        "id":3,
-        "title":"Laptop Convertible ONN",
-        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+{
+    "producto":[
+      {
+        "precio": 999,
+        "id":1,
+        "title":"Laptop convertible Hyundai",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/h/y/hyuandai-1_1.jpg"
+      },
+      {
+          "precio": 5699,
+        "id":2,
+        "title":"Laptop HP Victus",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/v/i/victus.jpg"
       },
       {
           "precio": 1399,
-        "id":4,
-        "title":"Laptop Convertible Lenovo",
-        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/f/l/flex-5_1_2.jpg"
+          "id":3,
+          "title":"Laptop Convertible ONN",
+          "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+        },
+        {
+          "precio": 9995,
+          "id":4,
+          "title":"Laptop convertible Hyundai22222",
+          "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/h/y/hyuandai-1_1.jpg"
+        },
+        {
+            "precio": 56959,
+          "id":5,
+          "title":"Laptop HP Victus22",
+          "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/v/i/victus.jpg"
+        },
+        {
+            "precio": 13959,
+            "id":6,
+            "title":"Laptop Convertible ONN2222",
+            "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+          }
+    ],
+    "producto_2":[
+      {
+        "precio": 9995,
+        "id":7,
+        "title":"Laptop convertible Hyundai22222",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/h/y/hyuandai-1_1.jpg"
       },
       {
-        "precio": 3499,
-        "id":5,
-        "title":"Laptop WorkStation Dell",
-        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/d/e/dell-1_6.jpg"
+          "precio": 56959,
+        "id":8,
+        "title":"Laptop HP Victus22",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/v/i/victus.jpg"
       },
       {
-          "precio": 4399,
-        "id":6,
-        "title":"PC Dell Inspiron 24-5400",
-        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/d/e/dell-all-in-one.jpg"
+          "precio": 13959,
+          "id":9,
+          "title":"Laptop Convertible ONN2222",
+          "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+        },
+        {
+            "precio": 56959,
+          "id":10,
+          "title":"Laptop HP Victus22",
+          "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/v/i/victus.jpg"
+        },
+        {
+            "precio": 13959,
+            "id":11,
+            "title":"Laptop Convertible ONN2222",
+            "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+          }
+    ],
+    "producto_3":[
+      {
+        "precio": 13959,
+        "id":12,
+        "title":"Laptop Convertible ONN2222",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+      },
+      {
+        "precio": 13959,
+        "id":13,
+        "title":"Laptop Convertible ONN2222",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+      },{
+        "precio": 13959,
+        "id":14,
+        "title":"Laptop Convertible ONN2222",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+      },
+      {
+        "precio": 13959,
+        "id":15,
+        "title":"Laptop Convertible ONN2222",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
       }
-]
+    ]
+  }
+

@@ -1,4 +1,6 @@
 const cards = document.getElementById('cards');
+const cards2 = document.getElementById('cards2');
+const cards3 = document.getElementById('cards3');
 const items = document.getElementById('items');
 const footer = document.getElementById('footer');
 const templateCard = document.getElementById('template-card').content;
@@ -10,13 +12,17 @@ let carrito = {}
 
 document.addEventListener('DOMContentLoaded', ()=>{
     fetchData()
-    if(localStorage.getItem('carrito')){
-        carrito = JSON.parse(localStorage.getItem('carrito'))
-        pintarCarrito()
-    }
 })
 
 cards.addEventListener('click', e=>{
+    addCarrito(e)
+})
+
+cards2.addEventListener('click', e=>{
+    addCarrito(e)
+})
+
+cards3.addEventListener('click', e=>{
     addCarrito(e)
 })
 
@@ -27,9 +33,15 @@ items.addEventListener('click', e=>{
 const fetchData =async () =>{
     try{
         const res = await fetch('api.json')
-        const data = await res.json()
-        //console.log(data)
+        //console.log(res)
+        const data_1 = await res.json()
+        const data = data_1.producto
+        const dataNew = data_1.producto_2
+        const dataNew2 = data_1.producto_3
+        //console.log(dataNew)
         printCards(data)
+        printCards_2(dataNew)
+        printCards_3(dataNew2)
 
     }catch(error){
         console.log(error)
@@ -38,6 +50,7 @@ const fetchData =async () =>{
 
 const printCards = data =>{
     data.forEach(product => {
+        //console.log(product.precio)
         templateCard.querySelector('h5').textContent = product.title
         templateCard.querySelector('p').textContent = product.precio
         templateCard.querySelector('img').setAttribute("src", product.img)
@@ -47,6 +60,34 @@ const printCards = data =>{
         fragment.appendChild(clone)
     });
     cards.appendChild(fragment)
+}
+
+const printCards_2 = dataNew =>{
+    dataNew.forEach(product => {
+        console.log(product.precio)
+        templateCard.querySelector('h5').textContent = product.title
+        templateCard.querySelector('p').textContent = product.precio
+        templateCard.querySelector('img').setAttribute("src", product.img)
+        templateCard.querySelector('.btn-dark').dataset.id = product.id
+        
+        const clone = templateCard.cloneNode(true)
+        fragment.appendChild(clone)
+    });
+    cards2.appendChild(fragment)
+}
+
+const printCards_3 = dataNew2 =>{
+    dataNew2.forEach(product => {
+        console.log(product.precio)
+        templateCard.querySelector('h5').textContent = product.title
+        templateCard.querySelector('p').textContent = product.precio
+        templateCard.querySelector('img').setAttribute("src", product.img)
+        templateCard.querySelector('.btn-dark').dataset.id = product.id
+        
+        const clone = templateCard.cloneNode(true)
+        fragment.appendChild(clone)
+    });
+    cards3.appendChild(fragment)
 }
 
 const addCarrito = e =>{
