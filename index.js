@@ -5,13 +5,16 @@ const items = document.getElementById('items');
 const footer = document.getElementById('footer');
 const templateCard = document.getElementById('template-card').content;
 const templateFooter = document.getElementById('template-footer').content;
-
 const templateCarrito = document.getElementById('template-carrito').content;
 const fragment = document.createDocumentFragment()
 let carrito = {}
 
 document.addEventListener('DOMContentLoaded', ()=>{
     fetchData()
+    if(localStorage.getItem('carrito')){
+        carrito = JSON.parse(localStorage.getItem('carrito'))
+        pintarCarrito()
+    }
 })
 
 cards.addEventListener('click', e=>{
@@ -52,9 +55,9 @@ const printCards = data =>{
     data.forEach(product => {
         //console.log(product.precio)
         templateCard.querySelector('h5').textContent = product.title
-        templateCard.querySelector('p').textContent = product.precio
+       templateCard.querySelector('p').textContent = product.precio
         templateCard.querySelector('img').setAttribute("src", product.img)
-        templateCard.querySelector('.btn-dark').dataset.id = product.id
+       templateCard.querySelector('.btn-dark').dataset.id = product.id
 
         const clone = templateCard.cloneNode(true)
         fragment.appendChild(clone)
@@ -64,7 +67,7 @@ const printCards = data =>{
 
 const printCards_2 = dataNew =>{
     dataNew.forEach(product => {
-        console.log(product.precio)
+        //console.log(product.precio)
         templateCard.querySelector('h5').textContent = product.title
         templateCard.querySelector('p').textContent = product.precio
         templateCard.querySelector('img').setAttribute("src", product.img)
@@ -78,7 +81,6 @@ const printCards_2 = dataNew =>{
 
 const printCards_3 = dataNew2 =>{
     dataNew2.forEach(product => {
-        console.log(product.precio)
         templateCard.querySelector('h5').textContent = product.title
         templateCard.querySelector('p').textContent = product.precio
         templateCard.querySelector('img').setAttribute("src", product.img)
@@ -145,7 +147,9 @@ const pintarCarrito = () =>{
 const pintarFooter= ()=>{
     footer.innerHTML = ''
     if(Object.keys(carrito).length ===0){
-        footer.innerHTML =  ` <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>`
+        footer.innerHTML =  `<th scope="row" colspan="5" id="adv">
+        <p>Carrito vacío - comience a comprar!</p>
+    </th>`
         return
     }
     const nCantidad = Object.values(carrito).reduce((acc,{cantidad}) => acc + cantidad,0)
@@ -164,7 +168,9 @@ const pintarFooter= ()=>{
     btnVaciar.addEventListener('click',() => {
         carrito = {}
         pintarCarrito()
+        localStorage.removeItem('carrito', JSON.stringify(carrito))
     })
+    
 }
 
 const btnAcction = e => {
@@ -183,6 +189,7 @@ const btnAcction = e => {
             delete carrito[e.target.dataset.id]
         }
         pintarCarrito()
+        localStorage.removeItem('carrito', JSON.stringify(carrito))
     }
     
     e.stopPropagation()

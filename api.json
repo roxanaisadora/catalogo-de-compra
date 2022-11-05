@@ -92,6 +92,30 @@
         "id":15,
         "title":"Laptop Convertible ONN2222",
         "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+      },
+      {
+        "precio": 13959,
+        "id":16,
+        "title":"Laptop Convertible ONN2222",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+      }
+    ],
+    "imagen":[
+      {
+        "id":17,
+        "img":"https://www.magitech.pe/media/wysiwyg/banners/home/apple-mac-desde.jpg"
+      },
+      {
+        "id":18,
+        "img":"https://www.magitech.pe/media/wysiwyg/banners/home/msi-bravo-15-b5dd-cyber.jpg"
+      },
+      {
+        "id":19,
+        "img":"https://www.magitech.pe/media/wysiwyg/banners/home/rog-strix-g15-g513qe-gaming-2.jpg"
+      },
+      {
+        "id":20,
+        "img":"https://www.magitech.pe/media/wysiwyg/banners/home/toshiba-dynabook-portege-fondo-claro.jpg"
       }
     ]
   }
