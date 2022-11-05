@@ -1,9 +1,10 @@
 const cards = document.getElementById('cards');
+const cards2 = document.getElementById('cards2');
+const cards3 = document.getElementById('cards3');
 const items = document.getElementById('items');
 const footer = document.getElementById('footer');
 const templateCard = document.getElementById('template-card').content;
 const templateFooter = document.getElementById('template-footer').content;
-
 const templateCarrito = document.getElementById('template-carrito').content;
 const fragment = document.createDocumentFragment()
 let carrito = {}
@@ -20,6 +21,14 @@ cards.addEventListener('click', e=>{
     addCarrito(e)
 })
 
+cards2.addEventListener('click', e=>{
+    addCarrito(e)
+})
+
+cards3.addEventListener('click', e=>{
+    addCarrito(e)
+})
+
 items.addEventListener('click', e=>{
     btnAcction(e)
 })
@@ -27,9 +36,15 @@ items.addEventListener('click', e=>{
 const fetchData =async () =>{
     try{
         const res = await fetch('api.json')
-        const data = await res.json()
-        //console.log(data)
+        //console.log(res)
+        const data_1 = await res.json()
+        const data = data_1.producto
+        const dataNew = data_1.producto_2
+        const dataNew2 = data_1.producto_3
+        //console.log(dataNew)
         printCards(data)
+        printCards_2(dataNew)
+        printCards_3(dataNew2)
 
     }catch(error){
         console.log(error)
@@ -38,15 +53,43 @@ const fetchData =async () =>{
 
 const printCards = data =>{
     data.forEach(product => {
+        //console.log(product.precio)
         templateCard.querySelector('h5').textContent = product.title
-        templateCard.querySelector('p').textContent = product.precio
+       templateCard.querySelector('p').textContent = product.precio
         templateCard.querySelector('img').setAttribute("src", product.img)
-        templateCard.querySelector('.btn-dark').dataset.id = product.id
+       templateCard.querySelector('.btn-dark').dataset.id = product.id
 
         const clone = templateCard.cloneNode(true)
         fragment.appendChild(clone)
     });
     cards.appendChild(fragment)
+}
+
+const printCards_2 = dataNew =>{
+    dataNew.forEach(product => {
+        //console.log(product.precio)
+        templateCard.querySelector('h5').textContent = product.title
+        templateCard.querySelector('p').textContent = product.precio
+        templateCard.querySelector('img').setAttribute("src", product.img)
+        templateCard.querySelector('.btn-dark').dataset.id = product.id
+        
+        const clone = templateCard.cloneNode(true)
+        fragment.appendChild(clone)
+    });
+    cards2.appendChild(fragment)
+}
+
+const printCards_3 = dataNew2 =>{
+    dataNew2.forEach(product => {
+        templateCard.querySelector('h5').textContent = product.title
+        templateCard.querySelector('p').textContent = product.precio
+        templateCard.querySelector('img').setAttribute("src", product.img)
+        templateCard.querySelector('.btn-dark').dataset.id = product.id
+        
+        const clone = templateCard.cloneNode(true)
+        fragment.appendChild(clone)
+    });
+    cards3.appendChild(fragment)
 }
 
 const addCarrito = e =>{
@@ -104,7 +147,9 @@ const pintarCarrito = () =>{
 const pintarFooter= ()=>{
     footer.innerHTML = ''
     if(Object.keys(carrito).length ===0){
-        footer.innerHTML =  ` <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>`
+        footer.innerHTML =  `<th scope="row" colspan="5" id="adv">
+        <p>Carrito vacío - comience a comprar!</p>
+    </th>`
         return
     }
     const nCantidad = Object.values(carrito).reduce((acc,{cantidad}) => acc + cantidad,0)
@@ -123,7 +168,9 @@ const pintarFooter= ()=>{
     btnVaciar.addEventListener('click',() => {
         carrito = {}
         pintarCarrito()
+        localStorage.removeItem('carrito', JSON.stringify(carrito))
     })
+    
 }
 
 const btnAcction = e => {
@@ -142,6 +189,7 @@ const btnAcction = e => {
             delete carrito[e.target.dataset.id]
         }
         pintarCarrito()
+        localStorage.removeItem('carrito', JSON.stringify(carrito))
     }
     
     e.stopPropagation()
