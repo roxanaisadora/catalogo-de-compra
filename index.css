@@ -171,7 +171,7 @@
 
 .croll_horizontal {
 	width: 100%;;
-	overflow: auto;
+	overflow-x: scroll;
     display: flex;
     justify-content: space-between;
     height: 425px;
