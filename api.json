@@ -1,121 +1,103 @@
 {
     "producto":[
       {
-        "precio": 999,
+        "precio": 3999,
         "id":1,
-        "title":"Laptop convertible Hyundai",
-        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/h/y/hyuandai-1_1.jpg"
+        "title":"PC Lenovo Think",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/t/h/think---monitor.jpg"
       },
       {
-          "precio": 5699,
+          "precio": 5299,
         "id":2,
-        "title":"Laptop HP Victus",
-        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/v/i/victus.jpg"
+        "title":"PC Todo en Uno Dell",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/d/e/dell-todo-en-uno.jpg"
       },
       {
-          "precio": 1399,
+          "precio": 4999,
           "id":3,
-          "title":"Laptop Convertible ONN",
-          "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+          "title":"Servidor HPE ProLiant",
+          "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/e/servidor-hpe-proliant-dl20-gen9-2.jpg"
         },
         {
-          "precio": 9995,
+          "precio": 11590,
           "id":4,
-          "title":"Laptop convertible Hyundai22222",
-          "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/h/y/hyuandai-1_1.jpg"
+          "title":"Laptop MSI GS65",
+          "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/m/s/msi_13.jpg"
         },
         {
-            "precio": 56959,
+            "precio": 1999,
           "id":5,
-          "title":"Laptop HP Victus22",
-          "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/v/i/victus.jpg"
+          "title":"PC Todo en Uno Lenovo",
+          "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/i/d/ideacentre-3-1_2.jpg"
         },
         {
-            "precio": 13959,
+            "precio": 3499,
             "id":6,
-            "title":"Laptop Convertible ONN2222",
-            "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+            "title":"Laptop Lenovo IdeaPad 5",
+            "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/i/d/idea5.jpg"
           }
     ],
     "producto_2":[
       {
-        "precio": 9995,
+        "precio": 999,
         "id":7,
-        "title":"Laptop convertible Hyundai22222",
+        "title":"Laptop convertible Hyundai",
         "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/h/y/hyuandai-1_1.jpg"
       },
       {
-          "precio": 56959,
+          "precio": 5695,
         "id":8,
-        "title":"Laptop HP Victus22",
+        "title":"Laptop HP Victus",
         "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/v/i/victus.jpg"
       },
       {
-          "precio": 13959,
+          "precio": 1395,
           "id":9,
-          "title":"Laptop Convertible ONN2222",
+          "title":"Laptop Convertible ONN",
           "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
         },
         {
-            "precio": 56959,
+            "precio": 4309,
           "id":10,
-          "title":"Laptop HP Victus22",
-          "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/v/i/victus.jpg"
+          "title":"PC Dell Inspiron 24-5400",
+          "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/d/e/dell-all-in-one.jpg"
         },
         {
-            "precio": 13959,
+            "precio": 3199,
             "id":11,
-            "title":"Laptop Convertible ONN2222",
-            "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+            "title":"Laptop MSI Katana",
+            "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/k/a/katana-2_1.jpg"
           }
     ],
     "producto_3":[
       {
-        "precio": 13959,
+        "precio": 99,
         "id":12,
-        "title":"Laptop Convertible ONN2222",
-        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+        "title":"Dell Slipcase 15",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/5/_/5_10_30.jpg"
       },
       {
-        "precio": 13959,
+        "precio": 99,
         "id":13,
-        "title":"Laptop Convertible ONN2222",
-        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+        "title":"Microsoft Mouse Bluetooth®",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/c/a/camo-verde-3.jpg"
       },{
-        "precio": 13959,
+        "precio": 159,
         "id":14,
-        "title":"Laptop Convertible ONN2222",
-        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+        "title":"Mochila Targus LEGEND",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/4/_/4_12_3.jpg"
       },
       {
-        "precio": 13959,
+        "precio": 1399,
         "id":15,
-        "title":"Laptop Convertible ONN2222",
-        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
+        "title":"Dell Docking Station WD19TB",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/d/o/docking-3.jpg"
       },
       {
-        "precio": 13959,
+        "precio": 499,
         "id":16,
-        "title":"Laptop Convertible ONN2222",
-        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/o/n/onn.jpg"
-      }
-    ],
-    "imagen":[
-      {
-        "id":17,
-        "img":"https://www.magitech.pe/media/wysiwyg/banners/home/apple-mac-desde.jpg"
-      },
-      {
-        "id":18,
-        "img":"https://www.magitech.pe/media/wysiwyg/banners/home/msi-bravo-15-b5dd-cyber.jpg"
-      },
-      {
-        "id":19,
-        "img":"https://www.magitech.pe/media/wysiwyg/banners/home/rog-strix-g15-g513qe-gaming-2.jpg"
-      },
-      {
-        "id":20,
-        "img":"https://www.magitech.pe/media/wysiwyg/banners/home/toshiba-dynabook-portege-fondo-claro.jpg"
+        "title":"Adaptador móvil Dell USB-C",
+        "img":"https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/d/e/dell-hub-1.jpg"
       }
     ]
   }

@@ -42,6 +42,12 @@
     height: 300px;
 }
 
+.container_ventajas{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2200ff;
+    width: 100%;
+}
 
 .container {
     width: 100%;
@@ -55,6 +61,21 @@
     height: 605px;
 }
 
+.title-ventajas{
+    padding: 30px;
+    color: rgb(236, 103, 32)
+}
+
+.card-fondo{
+    background-color: #eca043a4;
+}
+
+.icon{
+    margin: auto;
+    display: block;
+    width: 50%;
+    margin-top: 10px;
+}
 #features {
     margin-top: 20px;
 }
@@ -62,6 +83,16 @@
 .grid {
     display: flex;
     margin: 50px;
+}
+.parrafo-tarjeta{
+    padding: 10px;
+}
+.titulo-tarjeta{
+    text-align: center;
+}
+.tarjeta{
+    margin: 20px;
+    background-color: #c7bffa;
 }
 
 #features .icon {
@@ -101,16 +132,20 @@
     text-align: center;
 }
 
-.title--works>h1 {
+.title--works>h2 {
     margin-top: 20px;
-    font-size: 50px;
+    font-size: 30px;
+    color:  rgb(236, 103, 32);
 }
 
 #how-it-works>iframe {
     max-width: 900px;
     height: 500px;
 }
-.lista, .title_sugerencia, .mi_lista{
+
+.lista,
+.title_sugerencia,
+.mi_lista {
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -120,13 +155,12 @@
 }
 
 .box {
-    width: 700px;
-   background-color: rgba(0, 0, 0, 0.321);
+    width: 90%;
     padding: 5px;
     text-decoration: none;
     margin: 0 auto;
     margin-top: 10%;
-    color: black;
+    color: rgb(49, 25, 233);
     font-family: 'Century Gothic', 'Sans-Serif';
 }
 
@@ -141,7 +175,6 @@
     display: flex;
     justify-content: space-between;
     height: 425px;
-    
     text-align: center;
 }
 
@@ -183,6 +216,7 @@
 
 .mi_lista h2{
     margin: 50px 0px;
+    color:  rgb(236, 103, 32);
 }
 
 
@@ -192,19 +226,29 @@ footer {
     background-image: url(https://www.ikusi.com/wp-content/uploads/2022/06/post_thumbnail-4efabca9bd56b38edc0058c4ba006481.jpeg);
 }
 
+.contenedor{
+    background-color: rgba(0, 0, 0, 0.482);
+}
+
+
 footer .contacto-texto {
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
-    color: black;
+    color: rgb(248, 246, 246);
     font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.716);
 }
 
 footer .contacto-texto p {
     font-size: 24px;
     margin: 15px 0 3px 0;
-    color: rgb(0, 0, 0);
+    color: rgb(167, 228, 233);
 
 }
-
+.lista h2{
+    color:  rgb(236, 103, 32);
+}
 form {
     display: flex;
     flex-direction: column;
@@ -250,4 +294,4 @@ footer .contacto textarea {
     width: 100px;
     border-radius: 10px;
 }
- 
+
