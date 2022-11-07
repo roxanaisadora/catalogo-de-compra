@@ -194,16 +194,17 @@
 
 .title-for-card h5{
     height: 50px;
-    padding: 10px;
+    padding: 6px;
 }
 
 .title-for-card p{
-    font-size: 28px;
-    height: 50px;
+    font-size: 23px;
+    height: 30px;
+    margin-bottom: 30px;
 }
 
 .comprar{
-    margin-top: 28px;
+    margin-top: 30px;
 }
 
 #adv p{
@@ -221,6 +222,8 @@
 
 
 footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
     width: auto;
     height: auto;
     background-image: url(https://www.ikusi.com/wp-content/uploads/2022/06/post_thumbnail-4efabca9bd56b38edc0058c4ba006481.jpeg);
@@ -295,3 +298,19 @@ footer .contacto textarea {
     border-radius: 10px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr 1fr;
+    padding-left: 50px;
+    margin-top: 20px;
+
+  }
+
+  .grid-container h6{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .precio_card{
+    font-size: 18px;
+  }
